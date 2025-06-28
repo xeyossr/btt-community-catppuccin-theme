@@ -4,13 +4,16 @@ Bu repoda, btt.community forum için hazırladığım [Catppuccin](https://catpp
 
 ---
 
-## Öncesi & Sonrası
+## Önizleme
 
-**Öncesi:**  
-![Öncesi](assets/normal.png)
-
-**Sonrası:**  
-![Sonrası](assets/mocha.png)
+<details>
+<summary>🌻 Light Mode</summary>
+<img src="assets/latte.png"/>
+</details>
+<details>
+<summary>🌿 Dark Mode</summary>
+<img src="assets/mocha.png"/>
+</details>
 
 ---
 
