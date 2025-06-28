@@ -1,0 +1,91 @@
+@-moz-document domain("btt.community") {
+html:has(meta[data-color-scheme-is-dark="true"]) {
+  
+  --primary:           #bac2de;           
+  --secondary:         #1e1e2e;           
+  --tertiary:          #74c7ec;           
+  --quaternary:        #fe640b;           
+  --header_background: #11111b !important;
+  --header_primary:    #bac2de;           
+  --highlight:         #fab387;           
+  --danger:            #f38ba8;           
+  --success:           #a6e3a1;           
+  --love:              #ea76cb;           
+  --d-selected:        #313244;           
+  --d-hover:           #45475a;           
+
+  --primary-rgb: 221, 221, 221;
+  --primary-low-rgb: 69, 71, 90;
+  --primary-very-low-rgb: 40, 40, 40;
+  --secondary-rgb: 30, 30, 46;
+  --header_background-rgb: 17, 17, 27 !important;
+  --tertiary-rgb: 9, 157, 215;
+  --highlight-rgb: 168, 113, 55;
+  --success-rgb: 28, 165, 81;
+
+  --primary-very-low: rgba(49, 50, 68, 0.71);
+  --primary-low: rgba(69, 71, 90, 0.63);
+  --primary-low-mid: rgba(147, 153, 178, 0.76);
+  --primary-medium: rgba(166, 173, 200, 0.80);
+  --primary-high: rgba(186, 194, 222, 0.83);
+  --primary-very-high: rgba(205, 214, 244, 0.90);
+
+  --header_primary-low:         rgba(108, 112, 134, 0.72);
+  --header_primary-low-mid:     rgba(166, 173, 200, 0.76);
+  --header_primary-medium:      rgba(186, 194, 222, 0.84);
+  --header_primary-high:        rgba(205, 214, 244, 0.85);
+  --header_primary-very-high:   rgba(205, 214, 244, 0.95);
+
+  --secondary-low:              rgba(186, 194, 222, 0.94);
+  --secondary-medium:           rgba(147, 153, 178, 0.91);
+  --secondary-high:             rgba(108, 112, 134, 1.00);
+  --secondary-very-high:        rgba(49, 50, 68, 0.89);   
+
+  --tertiary-very-low:   rgba(30, 30, 46, 0.85);   
+  --tertiary-low:        rgba(30, 30, 46, 1.00);   
+  --tertiary-medium:     rgba(69, 71, 90, 0.91);   
+  --tertiary-high:       rgba(88, 91, 112, 0.98);  
+  --tertiary-hover:      rgba(147, 153, 178, 0.98);
+
+  --highlight-bg:        rgba(30, 30, 46, 0.63); 
+  --highlight-low:       rgba(30, 30, 46, 0.63); 
+  --highlight-medium:    rgba(49, 50, 68, 0.91); 
+  --highlight-high:      rgba(88, 91, 112, 1.00);
+
+  
+  --danger-low:        rgba(210, 15, 57, 0.65);
+  --danger-low-mid:    rgba(210, 15, 57, 0.70);
+  --danger-medium:     rgba(210, 15, 57, 0.85);
+  --danger-hover:      rgba(210, 15, 57, 1.00);
+
+  --success-low:       rgba(30, 102, 60, 0.75);
+  --success-medium:    rgba(64, 160, 43, 0.85);
+  --success-hover:     rgba(64, 160, 43, 1.00);
+
+  --love-low:          rgba(234, 118, 203, 0.85); 
+
+  --hljs-attr:        #89dceb;
+  --hljs-attribute:   #cba6f7;
+  --hljs-addition:    #a6e3a1;
+  --hljs-deletion:    #f38ba8;
+  --hljs-keyword:     #89dceb;
+  --hljs-title:       #fab387;
+  --hljs-name:        #fab387;
+  --hljs-punctuation: #bac2de;
+  --hljs-symbol:      #a6e3a1;
+  --hljs-variable:    #a6e3a1;
+  --hljs-string:      #a6e3a1;
+
+  --inline-code-bg:   rgba(30, 30, 46, 0.35);
+  --hljs-bg:          rgba(30, 30, 46, 0.25);
+
+  --custom-sidebar-highlight-color: #89b4fa;
+  --custom-chat-composer__wrapper:  #1e1e2e;
+  --custom-icons-color:             #f9e2af;
+  --custom-btn-color:               #f9e2af;
+
+  --gold:   #f9e2af;  
+  --silver: #cdd6f4;  
+  --bronze: #fab387;  
+}
+}
