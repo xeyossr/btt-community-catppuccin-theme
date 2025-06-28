@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         BTT.Community Catppuccin Theme
-@version      20250628.09.00
+@version      20250628.15.00
 @namespace    https://userstyles.world/user/github.com/xeyossr
 @description  btt.community için Catppuccin Teması
 @author       github.com/xeyossr
@@ -14,7 +14,7 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --secondary:         #1e1e2e;           
   --tertiary:          #74c7ec;           
   --quaternary:        #fe640b;           
-  --header_background: #11111b;
+  --header_background: #181825;
   --header_primary:    #bac2de;           
   --highlight:         #fab387;           
   --danger:            #f38ba8;           
@@ -35,7 +35,7 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --primary-very-low: rgba(49, 50, 68, 0.71);
   --primary-low: rgba(69, 71, 90, 0.63);
   --primary-low-mid: rgba(147, 153, 178, 0.76);
-  --primary-medium: rgba(166, 173, 200, 0.80);
+  --primary-medium: rgba(166, 173, 200, 0.8);
   --primary-high: rgba(186, 194, 222, 0.83);
   --primary-very-high: rgba(205, 214, 244, 0.90);
   
@@ -131,8 +131,13 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --danger-medium:             rgba(210, 15, 57, 0.85);
   --danger-high:               rgba(210, 15, 57, 0.95);
   --danger-hover:              rgba(210, 15, 57, 1.00);
+    
   --d-button-danger-icon-color--hover: rgba(255, 255, 255, 0.85);
-
+  --d-button-default-bg-color: rgba(69, 71, 90, 0.25);
+  --d-button-default-bg-color--hover: rgba(69, 71, 90, 0.38);
+  --d-button-default-icon-color--hover: rgba(186, 194, 222, 0.83);
+  --d-button-default-text-color--hover: #bac2de;
+    
   --success-low:       rgba(30, 102, 60, 0.75);
   --success-medium:    rgba(64, 160, 43, 0.85);
   --success-hover:     rgba(64, 160, 43, 1.00);
@@ -163,4 +168,175 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --silver: #cdd6f4;  
   --bronze: #fab387;  
 }
+    
+html:has(meta[data-color-scheme-is-dark="false"]) {
+  
+  --primary:           #5c5f77;           
+  --secondary:         #eff1f5;           
+  --tertiary:          #fe640b;          
+  --quaternary:        #fe640b;           
+  --header_background: #E6E9EF;
+  --header_primary:    #5c5f77;           
+  --highlight:         #fe640b;           
+  --danger:            #d20f09;           
+  --success:           #40a02b;           
+  --love:              #d20f39;           
+  --d-selected:        #D8DBE1;           
+  --d-hover:           #E4E6EB;           
+
+  --primary-rgb: 221, 221, 221;
+  --primary-low-rgb: 188, 192, 204;
+  --primary-very-low-rgb: 40, 40, 40;
+  --secondary-rgb: 239, 241, 245;
+  --header_background-rgb: 230, 233, 239;
+  --tertiary-rgb: 9, 157, 215;
+  --highlight-rgb: 254, 100, 11;
+  --success-rgb: 64, 160, 43;
+
+  --primary-very-low: rgba(204, 208, 218, 0.71);
+  --primary-low: rgba(221, 224, 230, 0.63);
+  --primary-low-mid: rgba(124, 127, 147, 0.76);
+  --primary-medium: rgba(108, 111, 133, 0.80);
+  --primary-high: rgba(92, 95, 119, 0.83);
+  --primary-very-high: rgba(76, 79, 105, 0.90);
+  
+  --primary-50:  rgba(204, 208, 218, 0.71);    
+  --primary-100: rgba(204, 208, 218, 0.79);    
+  --primary-200: rgba(188, 192, 204, 0.63);    
+  --primary-300: rgba(156, 160, 176, 0.25); 
+  --primary-400: rgba(124, 127, 147, 0.76); 
+  --primary-500: rgba(108, 111, 113, 0.74); 
+  --primary-600: rgba(108, 111, 113, 0.80); 
+  --primary-700: rgba(92, 95, 119, 0.77); 
+  --primary-800: rgba(92, 95, 119, 0.83); 
+  --primary-900: rgba(76, 79, 105, 0.90); 
+    
+  --blend-primary-secondary-5:         rgba(188, 192, 204, 0.3);    
+  --primary-med-or-secondary-med:      rgba(124, 127, 147, 0.91);
+  --primary-med-or-secondary-high:     rgba(156, 160, 176, 1.00);
+  --primary-high-or-secondary-low:     rgba(92, 95, 119, 0.94);
+  --primary-low-mid-or-secondary-high: rgba(156, 160, 176, 1.00);
+  --primary-low-mid-or-secondary-low:  rgba(92, 95, 119, 0.94);
+  --primary-or-primary-low-mid:        rgba(124, 127, 147, 0.76);
+  --highlight-low-or-medium:           rgba(204, 208, 218, 0.91);   
+  --tertiary-or-tertiary-low:          rgba(239, 241, 245, 1.00);   
+  --tertiary-low-or-tertiary-high:     rgba(172, 176, 190, 0.98);  
+  --tertiary-med-or-tertiary: #df8e1d;
+    
+  --tertiary-25:       rgba(254, 100, 11, 0.25);
+  --tertiary-50:       rgba(254, 100, 11, 0.50);
+  --tertiary-100:      rgba(254, 100, 11, 1.00);
+  --tertiary-200:      rgba(254, 100, 11, 1.00);
+  --tertiary-300:      rgba(254, 100, 11, 1.00);
+  --tertiary-400:      rgba(254, 100, 11, 0.80);
+  --tertiary-500:      rgba(254, 100, 11, 1.00);
+  --tertiary-600:      rgba(254, 100, 11, 0.75);
+  --tertiary-700:      rgba(254, 100, 11, 0.85);
+  --tertiary-800:      rgba(254, 100, 11, 0.70);
+  --tertiary-900:      rgba(254, 100, 11, 0.90);
+
+  --quaternary-low: rgba(239, 241, 245, 0.85);
+
+  --google:               #ccd0da;            
+  --google-hover:         rgba(76, 79, 105, 0.15); 
+
+  --instagram:            #d20f39;                  
+  --instagram-hover:      rgba(210, 15, 57, 0.85); 
+
+  --facebook:             #1e66f5;                  
+  --facebook-hover:       rgba(30, 102, 245, 0.85); 
+
+  --cas:                  ##40a02b;                   
+
+  --twitter:              #4c4f69;                   
+  --github:               #eff1f5;                   
+  --github-hover:         rgba(204, 208, 218, 0.85);    
+
+  --discord:              #7287fd;                   
+  --discord-hover:        rgba(114, 135, 253, 0.85); 
+
+  --gold:                 #df8e1d; 
+  --silver:               #4c4f69; 
+  --bronze:               #fe640b; 
+
+  --shadow-modal:         0 8px 60px rgba(239, 241, 245, 1);     
+  --shadow-composer:      0 -1px 40px rgba(239, 241, 245, 0.35); 
+  --shadow-card:          0 4px 14px rgba(239, 241, 245, 0.5);   
+  --shadow-dropdown:      0 2px 12px 0 rgba(239, 241, 245, 0.25);
+  --shadow-footer-nav:    0 0 2px 0 rgba(239, 241, 245, 0.4);    
+
+  --header_primary-low:         rgba(156, 160, 176, 0.72);
+  --header_primary-low-mid:     rgba(108, 111, 133, 0.76);
+  --header_primary-medium:      rgba(92, 95, 119, 0.84);
+  --header_primary-high:        rgba(76, 79, 105, 0.85);
+  --header_primary-very-high:   rgba(76, 79, 105, 0.95);
+
+  --secondary-low:              rgba(92, 95, 119, 0.94);
+  --secondary-medium:           rgba(124, 127, 147, 0.91);
+  --secondary-high:             rgba(156, 160, 176, 1.00);
+  --secondary-very-high:        rgba(204, 208, 218, 0.89);   
+
+  --tertiary-very-low:   rgba(239, 241, 245, 0.85);   
+  --tertiary-low:        rgba(239, 241, 245, 1.00);   
+  --tertiary-medium:     rgba(188, 192, 204, 0.91);   
+  --tertiary-high:       rgba(172, 176,190, 0.98);  
+  --tertiary-hover:      rgba(124, 127, 147, 0.98);
+
+  --highlight-bg:        rgba(239, 241, 245, 0.63); 
+  --highlight-low:       rgba(239, 241, 245, 0.63); 
+  --highlight-medium:    rgba(204, 208, 218, 0.91); 
+  --highlight-high:      rgba(172, 176, 190, 1.00);
+
+  --danger-low:                 rgba(210, 15, 57, 0.65);
+  --danger-low-mid:            rgba(210, 15, 57, 0.70);
+  --danger-medium:             rgba(210, 15, 57, 0.75);
+  --danger-high:               rgba(210, 15, 57, 0.85);
+  --danger-hover:              rgba(190, 0, 10, 1.00);
+  
+  --d-button-default-bg-color--hover: rgba(222, 224, 228, 1);
+  --d-button-default-icon-color--hover: rgba(92, 95, 119, 0.83);
+  --d-button-default-text-color--hover: rgba(92, 95, 119, 0.83);
+  --d-button-danger-icon-color: rgba(255, 255, 255, 0.75);
+  --d-button-danger-icon-color--hover: rgba(255, 255, 255, 0.85);
+  --d-button-primary-bg-color--hover: #e64500;
+    
+  --success-low:       rgba(30, 102, 60, 0.75);
+  --success-medium:    rgba(64, 160, 43, 0.85);
+  --success-hover:     rgba(64, 160, 43, 1.00);
+
+  --love-low:          rgba(242, 184, 188, 0.75);
+    
+  --hljs-attr:        #04a5e5;
+  --hljs-attribute:   #cba6f7;
+  --hljs-addition:    #40a02b;
+  --hljs-deletion:    #d20f39;
+  --hljs-keyword:     #04a5e5;
+  --hljs-title:       #fe640b;
+  --hljs-name:        #fe640b;
+  --hljs-punctuation: #b5bfe2;
+  --hljs-symbol:      #40a02b;
+  --hljs-variable:    #40a02b;
+  --hljs-string:      #40a02b;
+
+  --inline-code-bg:   rgba(239, 241, 245, 0.35);
+  --hljs-bg:          rgba(239, 241, 245, 0.25);
+
+  --custom-sidebar-highlight-color: #1e66f5;
+  --custom-chat-composer__wrapper:  #eff1f5;
+  --custom-icons-color:             #df8e1d;
+  --custom-btn-color:               #df8e1d;
+
+  --gold:   #df8e1d;
+  --silver: #4c4f69;  
+  --bronze: #fe640b;
+    
+  .sidebar-section-link-prefix {
+    color: #f98a1c !important;      
+  }
+  
+  .topic-owner span.username:not(.embedded-reply .names .username) {
+    background-color: #a97458 !important;
+  }
 }
+}
+
