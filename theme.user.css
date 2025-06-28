@@ -38,7 +38,72 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --primary-medium: rgba(166, 173, 200, 0.80);
   --primary-high: rgba(186, 194, 222, 0.83);
   --primary-very-high: rgba(205, 214, 244, 0.90);
+  
+  --primary-50:  rgba(49, 50, 68, 0.71);    
+  --primary-100: rgba(49, 50, 68, 0.79);    
+  --primary-200: rgba(69, 71, 90, 0.63);    
+  --primary-300: rgba(108, 112, 134, 0.75); 
+  --primary-400: rgba(147, 153, 178, 0.76); 
+  --primary-500: rgba(166, 173, 200, 0.74); 
+  --primary-600: rgba(166, 173, 200, 0.80); 
+  --primary-700: rgba(186, 194, 222, 0.77); 
+  --primary-800: rgba(186, 194, 222, 0.83); 
+  --primary-900: rgba(205, 214, 244, 0.90); 
+    
+  --blend-primary-secondary-5:         rgba(69, 71, 90, 0.6);    
+  --primary-med-or-secondary-med:      rgba(147, 153, 178, 0.91);
+  --primary-med-or-secondary-high:     rgba(108, 112, 134, 1.00);
+  --primary-high-or-secondary-low:     rgba(186, 194, 222, 0.94);
+  --primary-low-mid-or-secondary-high: rgba(108, 112, 134, 1.00);
+  --primary-low-mid-or-secondary-low:  rgba(186, 194, 222, 0.94);
+  --primary-or-primary-low-mid:        rgba(147, 153, 178, 0.76);
+  --highlight-low-or-medium:           rgba(49, 50, 68, 0.91);   
+  --tertiary-or-tertiary-low:          rgba(30, 30, 46, 1.00);   
+  --tertiary-low-or-tertiary-high:     rgba(88, 91, 112, 0.98);  
+  
+  --tertiary-25:   rgba(30, 30, 46, 0.72); 
+  --tertiary-50:   rgba(30, 30, 46, 0.90); 
+  --tertiary-100:  rgba(30, 30, 46, 1.00); 
+  --tertiary-200:  rgba(30, 30, 46, 1.00); 
+  --tertiary-300:  rgba(30, 30, 46, 1.00); 
+  --tertiary-400:  rgba(49, 50, 68, 0.93); 
+  --tertiary-500:  rgba(49, 50, 68, 1.00); 
+  --tertiary-600:  rgba(69, 71, 90, 0.91); 
+  --tertiary-700:  rgba(69, 71, 90, 1.00); 
+  --tertiary-800:  rgba(88, 91, 112, 0.90);
+  --tertiary-900:  rgba(88, 91, 112, 0.98);
 
+  --quaternary-low: rgba(30, 30, 46, 0.85);
+
+  --google:               #ffffff;                   
+  --google-hover:         rgba(205, 214, 244, 0.15); 
+
+  --instagram:            #f38ba8;                   
+  --instagram-hover:      rgba(243, 139, 168, 0.85); 
+
+  --facebook:             #89b4fa;                   
+  --facebook-hover:       rgba(137, 180, 250, 0.85); 
+
+  --cas:                  #a6e3a1;                   
+
+  --twitter:              #cdd6f4;                   
+  --github:               #1e1e2e;                   
+  --github-hover:         rgba(49, 50, 68, 0.85);    
+
+  --discord:              #b4befe;                   
+  --discord-hover:        rgba(180, 190, 254, 0.85); 
+
+  --gold:                 #f9e2af; 
+  --silver:               #cdd6f4; 
+  --bronze:               #fab387; 
+
+  --shadow-modal:         0 8px 60px rgba(30, 30, 46, 1);     
+  --shadow-composer:      0 -1px 40px rgba(30, 30, 46, 0.35); 
+  --shadow-card:          0 4px 14px rgba(30, 30, 46, 0.5);   
+  --shadow-dropdown:      0 2px 12px 0 rgba(30, 30, 46, 0.25);
+  --shadow-footer-nav:    0 0 2px 0 rgba(30, 30, 46, 0.4);    
+
+    
   --header_primary-low:         rgba(108, 112, 134, 0.72);
   --header_primary-low-mid:     rgba(166, 173, 200, 0.76);
   --header_primary-medium:      rgba(186, 194, 222, 0.84);
@@ -61,11 +126,12 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --highlight-medium:    rgba(49, 50, 68, 0.91); 
   --highlight-high:      rgba(88, 91, 112, 1.00);
 
-  
-  --danger-low:        rgba(210, 15, 57, 0.65);
-  --danger-low-mid:    rgba(210, 15, 57, 0.70);
-  --danger-medium:     rgba(210, 15, 57, 0.85);
-  --danger-hover:      rgba(210, 15, 57, 1.00);
+  --danger-low:                 rgba(210, 15, 57, 0.75);
+  --danger-low-mid:            rgba(210, 15, 57, 0.80);
+  --danger-medium:             rgba(210, 15, 57, 0.85);
+  --danger-high:               rgba(210, 15, 57, 0.95);
+  --danger-hover:              rgba(210, 15, 57, 1.00);
+  --d-button-danger-icon-color--hover: rgba(255, 255, 255, 0.85);
 
   --success-low:       rgba(30, 102, 60, 0.75);
   --success-medium:    rgba(64, 160, 43, 0.85);
