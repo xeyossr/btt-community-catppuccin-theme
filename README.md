@@ -1,4 +1,4 @@
-# btt.community Catppuccin Teması
+# 🐧 btt.community Catppuccin userstyle
 
 Bu repoda, btt.community forum için hazırladığım [Catppuccin](https://catppuccin.com/) teması yer almaktadır. Modern ve göz dostu bir arayüz sunar.
 
