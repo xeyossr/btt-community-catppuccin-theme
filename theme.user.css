@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name         BTT.Community Catppuccin Theme
+@version      20250628.09.00
+@namespace    https://userstyles.world/user/github.com/xeyossr
+@description  btt.community için Catppuccin Teması
+@author       github.com/xeyossr
+@license      GPL3
+==/UserStyle== */
+
 @-moz-document domain("btt.community") {
 html:has(meta[data-color-scheme-is-dark="true"]) {
   
@@ -5,12 +14,12 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --secondary:         #1e1e2e;           
   --tertiary:          #74c7ec;           
   --quaternary:        #fe640b;           
-  --header_background: #11111b !important;
+  --header_background: #11111b;
   --header_primary:    #bac2de;           
   --highlight:         #fab387;           
   --danger:            #f38ba8;           
   --success:           #a6e3a1;           
-  --love:              #ea76cb;           
+  --love:              #f5c2e7;           
   --d-selected:        #313244;           
   --d-hover:           #45475a;           
 
@@ -18,7 +27,7 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --primary-low-rgb: 69, 71, 90;
   --primary-very-low-rgb: 40, 40, 40;
   --secondary-rgb: 30, 30, 46;
-  --header_background-rgb: 17, 17, 27 !important;
+  --header_background-rgb: 17, 17, 27;
   --tertiary-rgb: 9, 157, 215;
   --highlight-rgb: 168, 113, 55;
   --success-rgb: 28, 165, 81;
@@ -62,7 +71,7 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --success-medium:    rgba(64, 160, 43, 0.85);
   --success-hover:     rgba(64, 160, 43, 1.00);
 
-  --love-low:          rgba(234, 118, 203, 0.85); 
+  --love-low:          rgba(234, 118, 203, 0.75); 
 
   --hljs-attr:        #89dceb;
   --hljs-attribute:   #cba6f7;
