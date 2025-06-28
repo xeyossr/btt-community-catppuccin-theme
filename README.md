@@ -38,9 +38,3 @@ Stylus, tarayıcıda özel temalar (userstyle) yüklemek için gereklidir.
 4. Kopyaladığın kodu yapıştır ve kaydet.
 
 ---
-
-## Eklenecekler
-
-- [ ] Açık tema için Catppuccin Latte paleti
-
----
