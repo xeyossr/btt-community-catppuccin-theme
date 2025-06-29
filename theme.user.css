@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         BTT.Community Catppuccin Theme
-@version      20250628.17.25
+@version      20250629.07.00
 @namespace    https://userstyles.world/user/github.com/xeyossr
 @description  btt.community için Catppuccin Teması
 @author       github.com/xeyossr
@@ -10,14 +10,14 @@
 @-moz-document domain("btt.community") {
 html:has(meta[data-color-scheme-is-dark="true"]) {
   
-  --primary:           #bac2de;           
+  --primary:           #cdd6f4;           
   --secondary:         #1e1e2e;           
   --tertiary:          #74c7ec;           
   --quaternary:        #fe640b;           
   --header_background: #181825;
-  --header_primary:    #bac2de;           
+  --header_primary:    #cdd6f4;           
   --highlight:         #fab387;           
-  --danger:            #f38ba8;           
+  --danger:            rgba(243, 139, 168, 0.25);           
   --success:           #a6e3a1;           
   --love:              #f5c2e7;           
   --d-selected:        #313244;           
@@ -32,24 +32,12 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --highlight-rgb: 168, 113, 55;
   --success-rgb: 28, 165, 81;
 
-  --primary-very-low: rgba(49, 50, 68, 0.71);
-  --primary-low: rgba(69, 71, 90, 0.63);
-  --primary-low-mid: rgba(147, 153, 178, 0.76);
-  --primary-medium: rgba(166, 173, 200, 0.8);
-  --primary-high: rgba(186, 194, 222, 0.83);
-  --primary-very-high: rgba(205, 214, 244, 0.90);
-  
-  --primary-50:  rgba(49, 50, 68, 0.71);    
-  --primary-100: rgba(49, 50, 68, 0.79);    
-  --primary-200: rgba(69, 71, 90, 0.63);    
-  --primary-300: rgba(108, 112, 134, 0.75); 
-  --primary-400: rgba(147, 153, 178, 0.76); 
-  --primary-500: rgba(166, 173, 200, 0.74); 
-  --primary-600: rgba(166, 173, 200, 0.80); 
-  --primary-700: rgba(186, 194, 222, 0.77); 
-  --primary-800: rgba(186, 194, 222, 0.83); 
-  --primary-900: rgba(205, 214, 244, 0.90); 
-    
+  --primary-very-low:                   rgba(49, 50, 68, 0.71);
+  --primary-low:                       rgba(69, 71, 90, 0.63);
+  --primary-low-mid:                   rgba(147, 153, 178, 0.76);
+  --primary-medium:                    rgba(166, 173, 200, 0.8);
+  --primary-high:                      rgba(205, 214, 244, 0.83);
+  --primary-very-high:                 rgba(205, 214, 244, 0.90);
   --blend-primary-secondary-5:         rgba(69, 71, 90, 0.6);    
   --primary-med-or-secondary-med:      rgba(147, 153, 178, 0.91);
   --primary-med-or-secondary-high:     rgba(108, 112, 134, 1.00);
@@ -60,7 +48,18 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --highlight-low-or-medium:           rgba(49, 50, 68, 0.91);   
   --tertiary-or-tertiary-low:          rgba(30, 30, 46, 1.00);   
   --tertiary-low-or-tertiary-high:     rgba(88, 91, 112, 0.98);  
-  
+  --quaternary-low:                    rgba(30, 30, 46, 0.85);
+    
+  --primary-50:    rgba(49, 50, 68, 0.71);    
+  --primary-100:   rgba(49, 50, 68, 0.79);    
+  --primary-200:   rgba(69, 71, 90, 0.63);    
+  --primary-300:   rgba(108, 112, 134, 0.75); 
+  --primary-400:   rgba(147, 153, 178, 0.76); 
+  --primary-500:   rgba(166, 173, 200, 0.74); 
+  --primary-600:   rgba(166, 173, 200, 0.80); 
+  --primary-700:   rgba(186, 194, 222, 0.77); 
+  --primary-800:   rgba(186, 194, 222, 0.83); 
+  --primary-900:   rgba(205, 214, 244, 0.90);
   --tertiary-25:   rgba(30, 30, 46, 0.72); 
   --tertiary-50:   rgba(30, 30, 46, 0.90); 
   --tertiary-100:  rgba(30, 30, 46, 1.00); 
@@ -73,26 +72,18 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --tertiary-800:  rgba(88, 91, 112, 0.90);
   --tertiary-900:  rgba(88, 91, 112, 0.98);
 
-  --quaternary-low: rgba(30, 30, 46, 0.85);
-
   --google:               #ffffff;                   
   --google-hover:         rgba(205, 214, 244, 0.15); 
-
   --instagram:            #f38ba8;                   
   --instagram-hover:      rgba(243, 139, 168, 0.85); 
-
   --facebook:             #89b4fa;                   
   --facebook-hover:       rgba(137, 180, 250, 0.85); 
-
   --cas:                  #a6e3a1;                   
-
   --twitter:              #cdd6f4;                   
   --github:               #1e1e2e;                   
   --github-hover:         rgba(49, 50, 68, 0.85);    
-
   --discord:              #b4befe;                   
   --discord-hover:        rgba(180, 190, 254, 0.85); 
-
   --gold:                 #f9e2af; 
   --silver:               #cdd6f4; 
   --bronze:               #fab387; 
@@ -102,7 +93,6 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --shadow-card:          0 4px 14px rgba(30, 30, 46, 0.5);   
   --shadow-dropdown:      0 2px 12px 0 rgba(30, 30, 46, 0.25);
   --shadow-footer-nav:    0 0 2px 0 rgba(30, 30, 46, 0.4);    
-
     
   --header_primary-low:         rgba(108, 112, 134, 0.72);
   --header_primary-low-mid:     rgba(166, 173, 200, 0.76);
@@ -114,36 +104,34 @@ html:has(meta[data-color-scheme-is-dark="true"]) {
   --secondary-medium:           rgba(147, 153, 178, 0.91);
   --secondary-high:             rgba(108, 112, 134, 1.00);
   --secondary-very-high:        rgba(49, 50, 68, 0.89);   
-
-  --tertiary-very-low:   rgba(30, 30, 46, 0.85);   
-  --tertiary-low:        rgba(30, 30, 46, 1.00);   
-  --tertiary-medium:     rgba(69, 71, 90, 0.91);   
-  --tertiary-high:       rgba(88, 91, 112, 0.98);  
-  --tertiary-hover:      rgba(147, 153, 178, 0.98);
-
-  --highlight-bg:        rgba(30, 30, 46, 0.63); 
-  --highlight-low:       rgba(30, 30, 46, 0.63); 
-  --highlight-medium:    rgba(49, 50, 68, 0.91); 
-  --highlight-high:      rgba(88, 91, 112, 1.00);
-
-  --danger-low:                 rgba(210, 15, 57, 0.75);
-  --danger-low-mid:            rgba(210, 15, 57, 0.80);
-  --danger-medium:             rgba(210, 15, 57, 0.85);
-  --danger-high:               rgba(210, 15, 57, 0.95);
-  --danger-hover:              rgba(210, 15, 57, 1.00);
+  --tertiary-very-low:          rgba(30, 30, 46, 0.85);   
+  --tertiary-low:               rgba(30, 30, 46, 1.00);   
+  --tertiary-medium:            rgba(69, 71, 90, 0.91);   
+  --tertiary-high:              rgba(88, 91, 112, 0.98);
+  --tertiary-hover:             rgba(116, 199, 236, 0.85);
+  --highlight-bg:               rgba(30, 30, 46, 0.63); 
+  --highlight-low:              rgba(30, 30, 46, 0.63); 
+  --highlight-medium:           rgba(49, 50, 68, 0.91); 
+  --highlight-high:             rgba(88, 91, 112, 1.00);
+  --danger-low:                 rgba(243, 139, 168, 0.85);
+  --danger-low-mid:             rgba(210, 15, 57, 0.80);
+  --danger-medium:              rgba(210, 15, 57, 0.85);
+  --danger-high:                rgba(210, 15, 57, 0.95);
+  --danger-hover:               #f38ba8;
     
-  --d-button-danger-icon-color--hover: rgba(255, 255, 255, 0.85);
-  --d-button-default-bg-color: rgba(69, 71, 90, 0.25);
-  --d-button-default-bg-color--hover: rgba(69, 71, 90, 0.38);
-  --d-button-default-icon-color--hover: rgba(186, 194, 222, 0.83);
-  --d-button-default-text-color--hover: #bac2de;
+  --d-button-danger-icon-color--hover: rgba(30, 30, 46, 0.85);
+  --d-button-default-bg-color: rgba(88, 91, 112, 0.25);
+  --d-button-default-bg-color--hover: rgba(88, 91, 112, 0.38);
+  --d-button-default-icon-color--hover: rgba(205, 214, 244, 0.95);
+  --d-button-default-text-color--hover: #cdd6f4;
+  --d-sidebar-highlight-hover-icon: rgba(205, 214, 244, 0.75);
+  --d-sidebar-highlight-hover-background: rgba(88, 91, 112, 0.8);
     
   --success-low:       rgba(30, 102, 60, 0.75);
   --success-medium:    rgba(64, 160, 43, 0.85);
   --success-hover:     rgba(64, 160, 43, 1.00);
-
-  --love-low:          rgba(234, 118, 203, 0.75); 
-
+  --love-low:          rgba(234, 118, 203, 0.75);
+    
   --hljs-attr:        #89dceb;
   --hljs-attribute:   #cba6f7;
   --hljs-addition:    #a6e3a1;
@@ -193,14 +181,14 @@ html:has(meta[data-color-scheme-is-dark="false"]) {
   --highlight-rgb: 254, 100, 11;
   --success-rgb: 64, 160, 43;
 
-  --primary-very-low: rgba(204, 208, 218, 0.71);
+  --primary-very-low: rgba(172, 176, 192, 0.71);
   --primary-low: rgba(221, 224, 230, 0.63);
   --primary-low-mid: rgba(124, 127, 147, 0.76);
-  --primary-medium: rgba(108, 111, 133, 0.80);
+  --primary-medium: rgba(92, 95, 112, 0.80);
   --primary-high: rgba(92, 95, 119, 0.83);
   --primary-very-high: rgba(76, 79, 105, 0.90);
   
-  --primary-50:  rgba(204, 208, 218, 0.71);    
+  --primary-50:  rgba(172, 176, 192, 0.71);    
   --primary-100: rgba(204, 208, 218, 0.79);    
   --primary-200: rgba(188, 192, 204, 0.63);    
   --primary-300: rgba(156, 160, 176, 0.25); 
@@ -296,8 +284,10 @@ html:has(meta[data-color-scheme-is-dark="false"]) {
   --d-button-default-bg-color--hover: rgba(222, 224, 228, 1);
   --d-button-default-icon-color--hover: rgba(92, 95, 119, 0.83);
   --d-button-default-text-color--hover: rgba(92, 95, 119, 0.83);
-  --d-button-danger-icon-color: rgba(255, 255, 255, 0.75);
-  --d-button-danger-icon-color--hover: rgba(255, 255, 255, 0.85);
+  --d-sidebar-highlight-hover-background: rgba(172, 176, 192, 0.25);
+  --d-sidebar-highlight-hover-icon: rgba(92, 95, 112, 0.80);
+  --d-button-danger-icon-color: #eff1f5;
+  --d-button-danger-icon-color--hover: #eff1f5;
   --d-button-primary-bg-color--hover: #e64500;
     
   --success-low:       rgba(30, 102, 60, 0.75);
@@ -335,7 +325,11 @@ html:has(meta[data-color-scheme-is-dark="false"]) {
   }
   
   .topic-owner span.username:not(.embedded-reply .names .username) {
-    background-color: #a97458 !important;
+    background-color: #F7941D !important;
+  }
+  
+  .topic-owner .names a {
+      color: #fff6e5 !important;
   }
 }
 }
